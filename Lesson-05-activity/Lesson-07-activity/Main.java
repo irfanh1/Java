@@ -77,3 +77,8 @@ class Main {
     // **************************************************
   }
 }
+
+double distance3D(double x2, double x1, double y2, double y1, double z2, double z1){
+    double d = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2) + Math.pow(z2 - z1, 2));
+    return d;
+}
