@@ -17,9 +17,10 @@ class Main {
       over 16 tickts  : each ticket cost $8.50
     */
      double groupSavings(double tickets){
-         if (tickets >= 1 && tickets <= 8)
+         if (tickets >= 1 && tickets <= 8){
          return "$11";
      }
+    }
          else if(tickets >= 9 && tickets <= 16)
          return "$10.50";
     }
@@ -42,7 +43,7 @@ class Main {
     */
       
     double groceryDiscount(int discount){
-      if (spent >= 100 && <=200 && beans >= 3);{
+      if (spent >= 100 && <=200 && beans >= 3){
       return "$10";
     }
       else if (spent >= 200 && beans >= 4){
