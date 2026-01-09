@@ -9,7 +9,7 @@ class Main {
 
     //Using this array to test your summArray and avgArray function
     int nums[] = {10,15,22,54,32,34,65,87,45,100,23,99,95,87,56,83};
-
+    print( sumArray(nums));
     
 
     // Use these two arrays to test your quizGrader function
